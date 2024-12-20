@@ -18,3 +18,7 @@ Este es un proyecto básico que utiliza Flask como backend y MongoDB como base d
    ```bash
    git clone https://github.com/tu-usuario/tu-repositorio.git
    cd tu-repositorio
+1. **Instalar dependencias**:
+   ```bash
+   pip install -r requirements.txt
+![image](https://github.com/user-attachments/assets/a756a032-55f2-4a90-bddf-1299b80eb172)
