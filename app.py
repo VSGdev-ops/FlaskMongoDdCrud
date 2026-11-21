@@ -26,4 +26,4 @@ def index():
 app.register_blueprint(todo, url_prefix='/todo')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=os.getenv('FLASK_DEBUG') == '1')
